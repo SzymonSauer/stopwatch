@@ -19,6 +19,9 @@ Project is created with:
 * CSS3
 * JavaScript
 
+* ## Screenshots
+![Example screenshot](./img/1.JPG)
+
 ## Setup
 You can see this project on-line using link: https://szymonsauer.github.io/stopwatch/
 To run this project locally download the code and run in the Visual Studio Code program. 
