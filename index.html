@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <script src="https://kit.fontawesome.com/bfc6076af7.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <div class="stopwatch-box">
+
+            <div class="icons"><i class="fa-solid fa-paintbrush"></i>
+                <i class="fa-solid fa-question"></i>
+            </div>
+            <p class="title">Stopwatch</p>
+            <div class="stopwatch-box-text">
+                <div class="showtime">
+                    <p class="recorded-time">00:00:000</p>
+                    <!-- <p class="recorded-time"><span class="minutes">00</span> : <span class="seconds">00</span> : <span
+                            class="centiseconds">00</span></p> -->
+                    <p class="last-record">Last time: 0:00</p>
+                </div>
+
+                <div class="buttons">
+                    <button class="buttons-interface"><i class="fa-solid fa-play play"></i></button>
+                    <button class="buttons-interface"><i class="fa-solid fa-pause pause"></i></button>
+                    <button class="buttons-interface"><i class="fa-solid fa-stop stop"></i></button>
+                    <button class="buttons-interface"><i class="fa-solid fa-xmark xmark"></i></button>
+
+                </div>
+                <div class="archives">
+                    <button class="archive-btn">archives</button>
+                </div>
+
+
+            </div>
+
+            <div class="popup-colors">
+                <button class="button-color red"></button>
+                <button class="button-color green"></button>
+                <button class="button-color blue"></button>
+            </div>
+
+            <div class="archive-records">
+                <ul class="archive-list">
+
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="popup">
+            <h2 class="instruction">Instruction:</h2>
+            <p class="popup-element"><i class="fa-solid fa-play play-popup"></i> - start</p>
+            <p class="popup-element"><i class="fa-solid fa-pause pause-popup"></i> - pause</p>
+            <p class="popup-element"><i class="fa-solid fa-stop stop-popup"></i> - stop</p>
+            <p class="popup-element"><i class="fa-solid fa-xmark xmark-popup"></i> - delete everything</p>
+            <p><span class="archives-text-popup">archives</span> - take the measurement</p>
+            <div class="popup-div-btn">
+                <button class="close">Close</button>
+            </div>
+
+        </div>
+
+        <!-- <div class="popup-colors">
+            <button>red</button>
+            <button>green</button>
+            <button>blue</button>
+        </div> -->
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
